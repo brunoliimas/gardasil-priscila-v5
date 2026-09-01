@@ -1,0 +1,188 @@
+{
+  "name": "Gardasil",
+  "campaignPrefix": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-",
+  "totalSlides": 16,
+  "target": {
+    "width": 1024,
+    "height": 768
+  },
+  "generatedAt": "2026-09-01T16:49:01.163Z",
+  "packaging": {
+    "deliveryZip": "Gardasil-veeva-delivery.zip",
+    "browserFolders": true,
+    "veevaZips": true,
+    "veevaFolder": "veeva/",
+    "sharedResource": {
+      "path": "shared/",
+      "css": "shared/css/",
+      "js": "shared/js/",
+      "menu": {
+        "source": "SHARED_MENU__duration-0.3",
+        "path": "shared/menu/"
+      },
+      "veeva": "Publicar a pasta shared/ como Shared Resource."
+    }
+  },
+  "slides": [
+    {
+      "order": 1,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01/",
+      "prev": null,
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 2,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 3,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 4,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 5,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 6,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 7,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 8,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 9,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 10,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 11,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 12,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 13,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 14,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 15,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14",
+      "next": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16",
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    },
+    {
+      "order": 16,
+      "name": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16",
+      "zip": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16.zip",
+      "veevaPath": "veeva/Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16.zip",
+      "browserPath": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16/",
+      "prev": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15",
+      "next": null,
+      "home": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+#menu {
+    position: absolute;
+    inset: 0;
+    width: 1024px;
+    height: 768px;
+    z-index: 50;
+    pointer-events: none;
+}
+
+#menu .va-shared-menu-item {
+    position: absolute;
+    display: none;
+    pointer-events: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#menu .va-shared-menu-item.is-active {
+    /* estado ativo: troca data-active-src quando existir */
+}
+
+#menu .va-shared-menu-item.is-disabled {
+    opacity: .35 !important;
+    pointer-events: none;
+}
+
+#menu .va-shared-menu-item.is-disabled[data-disabled-src] {
+    opacity: 1 !important;
+}
+
+#menu #MN_BG {
+    left: 0px;
+    top: 0px;
+    width: 1024px;
+    height: 768px;
+    z-index: 1;
+}
+
+#menu #MN_TT {
+    left: 0px;
+    top: 0px;
+    width: 1024px;
+    height: 219px;
+    z-index: 10;
+}
+
+#menu #MN_BTN_CLS {
+    left: 961.5px;
+    top: 705.5px;
+    width: 44px;
+    height: 44px;
+    z-index: 3;
+}
+
+#menu #MN_BTN_HOME {
+    left: 961.4px;
+    top: 22.5px;
+    width: 44px;
+    height: 44px;
+    z-index: 4;
+}
+
+#menu #MN_BTN_REF {
+    left: 961.5px;
+    top: 88.8px;
+    width: 44px;
+    height: 44px;
+    z-index: 5;
+}
+
+#menu #MN_LEG {
+    left: 32px;
+    top: 726px;
+    width: 111.5px;
+    height: 13px;
+    z-index: 6;
+}
+
+#menu #MN_TAG {
+    left: 0px;
+    top: 219px;
+    width: 1024px;
+    height: 67px;
+    z-index: 9;
+}
+
+#menu #MN_IMG {
+    left: 0px;
+    top: 286px;
+    width: 1024px;
+    height: 122.5px;
+    z-index: 8;
+}
+
+#menu #MN_BTN_ADRIANA {
+    left: 0px;
+    top: 286px;
+    width: 205px;
+    height: 482px;
+    z-index: 9;
+}
+
+#menu #MN_BTN_POP_ADRIANA {
+    left: 168px;
+    top: 297px;
+    width: 24.5px;
+    height: 24.5px;
+    z-index: 10;
+}
+
+#menu #MN_BTN_PRISCILA {
+    left: 205px;
+    top: 286px;
+    width: 204.5px;
+    height: 482px;
+    z-index: 11;
+}
+
+#menu #MN_BTN_POP_PRISCILA {
+    left: 372px;
+    top: 297px;
+    width: 24.5px;
+    height: 24.5px;
+    z-index: 12;
+}
+
+#menu #MN_BTN_MARINA {
+    left: 409.5px;
+    top: 286px;
+    width: 205px;
+    height: 482px;
+    z-index: 13;
+}
+
+#menu #MN_BTN_POP_MARINA {
+    left: 576px;
+    top: 297px;
+    width: 24.5px;
+    height: 24.5px;
+    z-index: 14;
+}
+
+#menu #MN_BTN_ESTELA {
+    left: 614.5px;
+    top: 284.5px;
+    width: 204.5px;
+    height: 482px;
+    z-index: 15;
+}
+
+#menu #MN_BTN_POP_ESTELA {
+    left: 780px;
+    top: 299px;
+    width: 24.5px;
+    height: 24.5px;
+    z-index: 16;
+}
+
+#menu #MN_BTN_FERNANDA {
+    left: 819px;
+    top: 286px;
+    width: 205px;
+    height: 482px;
+    z-index: 17;
+}
+
+#menu #MN_BTN_POP_FERNANDA {
+    left: 984px;
+    top: 297px;
+    width: 24.5px;
+    height: 24.5px;
+    z-index: 18;
+}

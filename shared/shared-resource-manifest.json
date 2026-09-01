@@ -1,0 +1,25 @@
+{
+  "name": "Gardasil",
+  "campaignPrefix": "Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-",
+  "version": "2026-09-01T16:49:09.846Z",
+  "generatedAt": "2026-09-01T16:49:09.846Z",
+  "modules": {
+    "css": {
+      "path": "shared/css/",
+      "source": "testes/shared/css"
+    },
+    "js": {
+      "path": "shared/js/",
+      "source": "testes/shared/js"
+    },
+    "menu": {
+      "path": "shared/menu/",
+      "master": "SHARED_MENU__duration-0.3"
+    },
+    "popups": {
+      "path": "shared/popups/",
+      "count": 1
+    }
+  },
+  "publish": "Publique a pasta shared/ como Shared Resource da apresentação no Veeva."
+}

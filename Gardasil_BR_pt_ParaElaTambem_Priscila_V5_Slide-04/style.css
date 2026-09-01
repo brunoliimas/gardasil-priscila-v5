@@ -1,0 +1,145 @@
+
+#BG {
+    position: absolute;
+    z-index: 1;
+    width: 1024px;
+    height: 170.5px;
+    top: 0px;
+    left: 0px;
+}
+
+#scroll,
+#drag {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    z-index: 7;
+}
+
+img.va-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.35 !important;
+}
+
+img.va-disabled.va-disabled-art {
+    opacity: 1 !important;
+}
+
+#AN_TT {
+    position: absolute;
+    z-index: 2;
+    width: 813px;
+    height: 130.5px;
+    top: 20px;
+    left: 64px;
+}
+
+#AN_TT_ICONS_A {
+    position: absolute;
+    z-index: 3;
+    width: 337px;
+    height: 210px;
+    top: 471.5px;
+    left: 154px;
+}
+
+#AN_ICON_A_01 {
+    position: absolute;
+    z-index: 4;
+    width: 234.7px;
+    height: 234.7px;
+    top: 195px;
+    left: 206px;
+}
+
+#AN_ICON_A_02 {
+    position: absolute;
+    z-index: 5;
+    width: 95.4px;
+    height: 95.4px;
+    top: 359.6px;
+    left: 178.5px;
+}
+
+#AN_TT_ICONS_B {
+    position: absolute;
+    z-index: 6;
+    width: 337px;
+    height: 210px;
+    top: 471.5px;
+    left: 534.5px;
+}
+
+#AN_ICON_B_01 {
+    position: absolute;
+    z-index: 7;
+    width: 234.7px;
+    height: 234.7px;
+    top: 195px;
+    left: 586.1px;
+}
+
+#AN_ICON_B_02 {
+    position: absolute;
+    z-index: 8;
+    width: 95.4px;
+    height: 95.4px;
+    top: 359.6px;
+    left: 558.7px;
+}
+
+#AN_LEG {
+    position: absolute;
+    z-index: 9;
+    width: 750px;
+    height: 49.5px;
+    top: 700px;
+    left: 45.5px;
+}
+
+#ST_SLIDE_BTN_NEXT {
+    position: absolute;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 965px;
+}
+
+#ST_SLIDE_BTN_PREV {
+    position: absolute;
+    z-index: 11;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 847px;
+}
+
+#ST_BTN_REF {
+    position: absolute;
+    z-index: 12;
+    width: 44px;
+    height: 44px;
+    top: 74px;
+    left: 965px;
+}
+
+#ST_BTN_HOME {
+    position: absolute;
+    z-index: 13;
+    width: 44px;
+    height: 44px;
+    top: 15px;
+    left: 965px;
+}
+
+#ST_BTN_MENU {
+    position: absolute;
+    z-index: 14;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 906px;
+}

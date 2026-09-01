@@ -1,0 +1,33 @@
+{
+  "master": "SHARED_MENU__duration-0.3",
+  "generatedAt": "2026-09-01T16:49:01.654Z",
+  "width": 1024,
+  "height": 768,
+  "popups": [
+    {
+      "id": "POP_PRISCILA",
+      "children": [
+        "POP_PRISCILA_BG",
+        "POP_PRISCILA_TT",
+        "POP_PRISCILA_TXT",
+        "POP_PRISCILA_MENTION",
+        "POP_PRISCILA_LEG",
+        "POP_PRISCILA_BTN_CLS"
+      ],
+      "openSelectors": [
+        "#AN_BTN_POP_PRISCILA",
+        "#ST_BTN_POP_PRISCILA",
+        "#BTN_POP_PRISCILA",
+        "#AN_BTN_PRISCILA",
+        "#ST_BTN_PRISCILA",
+        "#BTN_PRISCILA"
+      ],
+      "closeSelectors": [
+        "#POP_PRISCILA_BTN_CLS",
+        "#POP_PRISCILA_CLS",
+        "#POP_PRISCILA_ICON_CLS",
+        "#POP_PRISCILA_BG"
+      ]
+    }
+  ]
+}

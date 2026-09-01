@@ -1,0 +1,116 @@
+html {
+	display: block;
+	width: 100%;
+	height: 100%; 
+	margin: 0;
+	padding: 0;
+	background-color: #242424;
+}
+body {
+	display: block;
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+p, a, img, div {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+#main { 
+	position: absolute;
+	overflow: hidden;
+	height: 768px;
+	width: 1024px;
+}
+#animate {
+	position: absolute;
+	overflow: hidden;
+	height: 768px;
+	width: 1024px;
+	opacity: 0;
+	z-index: 2;
+}
+#static {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	z-index: 3;
+}
+#popups {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	z-index: 4;
+	opacity: 0;
+}
+#menu {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	z-index: 5;
+	opacity: 0;
+}
+#overlay {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	z-index: 6;
+}
+
+html.browser-mode,
+html.browser-mode body {
+	width: 100% !important;
+	height: 100% !important;
+	overflow: hidden;
+	background-color: #242424;
+}
+
+html.browser-mode body {
+	position: relative;
+}
+
+html.browser-mode #main {
+	touch-action: none;
+}
+
+#ST_SLIDE_BTN_NEXT,
+#ST_SLIDE_BTN_PREV,
+#ST_BTN_REF,
+#ST_BTN_HOME,
+#ST_BTN_MENU,
+#ST_BTN_MN,
+[data-link-veeva],
+[data-open-popup],
+[id*="BTN"] {
+	cursor: pointer;
+	-webkit-user-drag: none;
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #4A4E1A;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #F5E600;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #F5E600;
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #F5E600 #4A4E1A;
+}

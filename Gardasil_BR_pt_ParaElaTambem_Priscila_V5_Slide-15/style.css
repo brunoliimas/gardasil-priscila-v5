@@ -1,0 +1,118 @@
+
+#BG {
+    position: absolute;
+    z-index: 1;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    left: 0px;
+}
+
+#scroll,
+#drag {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    z-index: 7;
+}
+
+img.va-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.35 !important;
+}
+
+img.va-disabled.va-disabled-art {
+    opacity: 1 !important;
+}
+
+#AN_GARDASIL {
+    position: absolute;
+    z-index: 2;
+    width: 218px;
+    height: 118.5px;
+    top: 36px;
+    left: 53.8px;
+}
+
+#AN_BULA_01 {
+    position: absolute;
+    z-index: 3;
+    width: 917.4px;
+    height: 144.5px;
+    top: 206.5px;
+    left: 53px;
+}
+
+#AN_BULA_02 {
+    position: absolute;
+    z-index: 4;
+    width: 917.4px;
+    height: 121px;
+    top: 377.5px;
+    left: 53px;
+}
+
+#AN_INFO {
+    position: absolute;
+    z-index: 5;
+    width: 889.5px;
+    height: 72px;
+    top: 545px;
+    left: 53px;
+}
+
+#AN_FOOTER {
+    position: absolute;
+    z-index: 6;
+    width: 796.5px;
+    height: 62.5px;
+    top: 668px;
+    left: 52px;
+}
+
+#ST_SLIDE_BTN_NEXT {
+    position: absolute;
+    z-index: 7;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 965px;
+}
+
+#ST_SLIDE_BTN_PREV {
+    position: absolute;
+    z-index: 8;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 847px;
+}
+
+#ST_BTN_REF {
+    position: absolute;
+    z-index: 9;
+    width: 44px;
+    height: 44px;
+    top: 74px;
+    left: 965px;
+}
+
+#ST_BTN_HOME {
+    position: absolute;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    top: 15px;
+    left: 965px;
+}
+
+#ST_BTN_MENU {
+    position: absolute;
+    z-index: 11;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 906px;
+}

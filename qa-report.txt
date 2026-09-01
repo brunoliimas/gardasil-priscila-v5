@@ -1,0 +1,30 @@
+VA Export — relatório de QA
+Frames: 16
+Erros: 0 | Avisos: 0
+
+Nenhum problema encontrado.
+
+Ordem de navegação:
+  1. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01
+  2. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-02
+  3. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-03
+  4. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-04
+  5. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-05
+  6. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-06
+  7. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-07
+  8. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-08
+  9. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09
+  10. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-10
+  11. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11
+  12. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-12
+  13. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-13
+  14. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-14
+  15. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-15
+  16. Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16
+
+Pacote Veeva:
+  - Pastas na raiz: teste local com ../shared
+  - veeva/<Slide>.zip: upload no CLM (nome = presentation)
+  - campaign-manifest.json: ordem e metadados da campanha
+
+Lembrete: o ZIP já inclui shared/css, shared/js, shared/menu e shared/popups quando gerados.

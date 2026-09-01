@@ -1,0 +1,163 @@
+
+#BG {
+    position: absolute;
+    z-index: 1;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    left: 0px;
+}
+
+#scroll,
+#drag {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    z-index: 7;
+}
+
+img.va-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.35 !important;
+}
+
+img.va-disabled.va-disabled-art {
+    opacity: 1 !important;
+}
+
+#AN_TT {
+    position: absolute;
+    z-index: 2;
+    width: 876px;
+    height: 90px;
+    top: 40.5px;
+    left: 64px;
+}
+
+#AN_TXT_MAPA {
+    position: absolute;
+    z-index: 3;
+    width: 509px;
+    height: 296px;
+    top: 306px;
+    left: 83.5px;
+}
+
+#AN_MAPA {
+    position: absolute;
+    z-index: 4;
+    width: 423.6px;
+    height: 441.8px;
+    top: 235px;
+    left: 516.5px;
+}
+
+#AN_BTN_POP_MAPA {
+    position: absolute;
+    z-index: 5;
+    width: 44px;
+    height: 44px;
+    top: 488.5px;
+    left: 864.5px;
+}
+
+#ST_SLIDE_BTN_NEXT {
+    position: absolute;
+    z-index: 6;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 965px;
+}
+
+#ST_SLIDE_BTN_PREV {
+    position: absolute;
+    z-index: 7;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 847px;
+}
+
+#ST_BTN_REF {
+    position: absolute;
+    z-index: 8;
+    width: 44px;
+    height: 44px;
+    top: 74px;
+    left: 965px;
+}
+
+#ST_BTN_HOME {
+    position: absolute;
+    z-index: 9;
+    width: 44px;
+    height: 44px;
+    top: 15px;
+    left: 965px;
+}
+
+#ST_BTN_MENU {
+    position: absolute;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 906px;
+}
+
+#POP_MAPA_BG {
+    position: absolute;
+    z-index: 11;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    left: 0px;
+}
+
+#POP_MAPA_BTN_CLS {
+    position: absolute;
+    z-index: 12;
+    width: 44px;
+    height: 44px;
+    top: 23px;
+    left: 961px;
+}
+
+#POP_MAPA_TT {
+    position: absolute;
+    z-index: 13;
+    width: 872.5px;
+    height: 57px;
+    top: 48px;
+    left: 53px;
+}
+
+#POP_MAPA_SUB {
+    position: absolute;
+    z-index: 14;
+    width: 408.5px;
+    height: 47.5px;
+    top: 171.5px;
+    left: 308px;
+}
+
+#POP_MAPA_CNTT {
+    position: absolute;
+    z-index: 15;
+    width: 509px;
+    height: 444px;
+    top: 235.5px;
+    left: 250.5px;
+}
+
+#POP_MAPA_LEG {
+    position: absolute;
+    z-index: 16;
+    width: 912px;
+    height: 21px;
+    top: 718.5px;
+    left: 53px;
+}

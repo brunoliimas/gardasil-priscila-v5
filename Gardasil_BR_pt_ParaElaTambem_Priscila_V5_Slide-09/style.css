@@ -1,0 +1,172 @@
+
+#BG {
+    position: absolute;
+    z-index: 1;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    left: 0px;
+}
+
+#scroll,
+#drag {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    z-index: 7;
+}
+
+img.va-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.35 !important;
+}
+
+img.va-disabled.va-disabled-art {
+    opacity: 1 !important;
+}
+
+#AN_TT {
+    position: absolute;
+    z-index: 2;
+    width: 704.5px;
+    height: 130.5px;
+    top: 20px;
+    left: 64px;
+}
+
+#AN_TXT_BIG {
+    position: absolute;
+    z-index: 3;
+    width: 719px;
+    height: 302.5px;
+    top: 278.5px;
+    left: 153px;
+}
+
+#AN_BULLET_01 {
+    position: absolute;
+    z-index: 4;
+    width: 12px;
+    height: 12px;
+    top: 600.5px;
+    left: 480.5px;
+}
+
+#AN_BULLET_02 {
+    position: absolute;
+    z-index: 5;
+    width: 12px;
+    height: 12px;
+    top: 600.5px;
+    left: 506px;
+}
+
+#AN_BULLET_03 {
+    position: absolute;
+    z-index: 6;
+    width: 12px;
+    height: 12px;
+    top: 600.5px;
+    left: 531.5px;
+}
+
+#AN_TXT_SMALL {
+    position: absolute;
+    z-index: 7;
+    width: 372px;
+    height: 73px;
+    top: 635.5px;
+    left: 326px;
+}
+
+#AN_BTN_POP_RESUMO {
+    position: absolute;
+    z-index: 8;
+    width: 44px;
+    height: 44px;
+    top: 448px;
+    left: 905px;
+}
+
+#ST_SLIDE_BTN_NEXT {
+    position: absolute;
+    z-index: 9;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 965px;
+}
+
+#ST_SLIDE_BTN_PREV {
+    position: absolute;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 847px;
+}
+
+#ST_BTN_REF {
+    position: absolute;
+    z-index: 11;
+    width: 44px;
+    height: 44px;
+    top: 74px;
+    left: 965px;
+}
+
+#ST_BTN_HOME {
+    position: absolute;
+    z-index: 12;
+    width: 44px;
+    height: 44px;
+    top: 15px;
+    left: 965px;
+}
+
+#ST_BTN_MENU {
+    position: absolute;
+    z-index: 13;
+    width: 44px;
+    height: 44px;
+    top: 709px;
+    left: 906px;
+}
+
+#POP_RESUMO_BG {
+    position: absolute;
+    z-index: 14;
+    width: 1024px;
+    height: 768px;
+    top: 0px;
+    left: 0px;
+}
+
+#POP_RESUMO_BTN_CLS {
+    position: absolute;
+    z-index: 15;
+    width: 44px;
+    height: 44px;
+    top: 23px;
+    left: 961px;
+}
+
+#POP_RESUMO_TT {
+    position: absolute;
+    z-index: 16;
+    width: 887.5px;
+    height: 56.5px;
+    top: 58.5px;
+    left: 53px;
+}
+
+#POP_RESUMO_CNTT {
+    position: absolute;
+    z-index: 17;
+    width: 887.5px;
+    height: 284.5px;
+    top: 138.5px;
+    left: 53px;
+}

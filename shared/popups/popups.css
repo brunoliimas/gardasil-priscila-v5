@@ -1,0 +1,64 @@
+#shared-popups {
+    position: absolute;
+    inset: 0;
+    width: 1024px;
+    height: 768px;
+    z-index: 45;
+    pointer-events: none;
+}
+
+#shared-popups .va-shared-popup-item {
+    position: absolute;
+    display: none;
+    pointer-events: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+#shared-popups #POP_PRISCILA_BG {
+    left: 0px;
+    top: 0px;
+    width: 1024px;
+    height: 768px;
+    z-index: 1;
+}
+
+#shared-popups #POP_PRISCILA_TT {
+    left: 44px;
+    top: 254px;
+    width: 420px;
+    height: 56.5px;
+    z-index: 2;
+}
+
+#shared-popups #POP_PRISCILA_TXT {
+    left: 44px;
+    top: 327.5px;
+    width: 328px;
+    height: 207px;
+    z-index: 3;
+}
+
+#shared-popups #POP_PRISCILA_MENTION {
+    left: 588px;
+    top: 288.5px;
+    width: 331.5px;
+    height: 388px;
+    z-index: 4;
+}
+
+#shared-popups #POP_PRISCILA_LEG {
+    left: 32px;
+    top: 726px;
+    width: 111.5px;
+    height: 13px;
+    z-index: 5;
+}
+
+#shared-popups #POP_PRISCILA_BTN_CLS {
+    left: 961px;
+    top: 23px;
+    width: 44px;
+    height: 44px;
+    z-index: 6;
+}

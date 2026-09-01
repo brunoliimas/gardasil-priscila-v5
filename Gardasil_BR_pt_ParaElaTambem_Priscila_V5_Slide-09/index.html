@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-09</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../shared/menu/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="../shared/popups/popups.css" rel="stylesheet" type="text/css"/>
+        <link href="../shared/css/style.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" charset="utf-8" src="../shared/js/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/jquery-migrate-3.5.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/gsap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/veeva-library.js"></script>
+        <script>
+        $(document).ready(function() {
+            initMenu();
+            initPopups();
+
+            var tl = gsap.timeline();
+            tl.to("#animate, #popups, #menu, #scroll, #drag, #shared-popups", { duration: 0.3, opacity: 1 }, 0.3)
+            .from("#AN_TT", { duration: 0.3, opacity: 0, left: "-=30" }, "-=.2")
+            .from("#AN_TXT_BIG", { duration: 0.3, opacity: 0, top: "-=30" }, "-=.2")
+            .from("#AN_BULLET_01", { duration: 0.6, opacity: 0, scale: 0 }, "-=.2")
+            .from("#AN_BULLET_02", { duration: 0.6, opacity: 0, scale: 0 }, "-=.3")
+            .from("#AN_BULLET_03", { duration: 0.6, opacity: 0, scale: 0 }, "-=.3")
+            .from("#AN_TXT_SMALL", { duration: 0.5, opacity: 0, top: "-=30" }, "-=.2")
+            .from("#AN_BTN_POP_RESUMO", { duration: 0.3, opacity: 0, scale: 0.8 }, "-=.2");
+
+            window.vaPopups = window.vaPopups || {};
+
+            var tl_POP_RESUMO = gsap.timeline({ paused: true });
+                tl_POP_RESUMO
+                    .from("#POP_RESUMO_BG", { duration: 0.3, display: "none", opacity: 0 })
+                    .from("#POP_RESUMO_BTN_CLS", { duration: 0.3, display: "none", opacity: 0, scale: 0.8 }, "-=.2")
+                    .from("#POP_RESUMO_TT", { duration: 0.3, display: "none", opacity: 0, top: "-=30" }, "-=.2")
+                    .from("#POP_RESUMO_CNTT", { duration: 0.3, display: "none", opacity: 0, top: "-=30" }, "-=.2");
+            window.vaPopups["POP_RESUMO"] = tl_POP_RESUMO;
+
+            $("#AN_BTN_POP_RESUMO, #ST_BTN_POP_RESUMO, #BTN_POP_RESUMO, #AN_BTN_RESUMO, #ST_BTN_RESUMO, #BTN_RESUMO").not("[aria-disabled='true']").on("touchstart click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                tl_POP_RESUMO.timeScale(1).play();
+            });
+            $("#POP_RESUMO_BTN_CLS, #POP_RESUMO_CLS, #POP_RESUMO_ICON_CLS, #POP_RESUMO_BG").on("touchstart click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                tl_POP_RESUMO.timeScale(2).reverse();
+            });
+        
+        });
+        </script>
+        <script type="text/javascript" charset="utf-8" src="../shared/menu/menu.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/popups/popups.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/main.js"></script>
+    </head>
+    <body>
+        <main id="main">
+            <div id="background">
+                <img id="BG" src="images/BG.png" alt="" />
+            </div>
+            <div id="animate">
+                <img id="AN_TT" src="images/AN_TT.png" alt="" />
+                <img id="AN_TXT_BIG" src="images/AN_TXT_BIG.png" alt="" />
+                <img id="AN_BULLET_01" src="images/AN_BULLET_01.png" alt="" />
+                <img id="AN_BULLET_02" src="images/AN_BULLET_02.png" alt="" />
+                <img id="AN_BULLET_03" src="images/AN_BULLET_03.png" alt="" />
+                <img id="AN_TXT_SMALL" src="images/AN_TXT_SMALL.png" alt="" />
+                <img id="AN_BTN_POP_RESUMO" src="images/AN_BTN_POP_RESUMO.png" alt="" />
+            </div>
+            <div id="static">
+                <img id="ST_SLIDE_BTN_NEXT" src="images/ST_SLIDE_BTN_NEXT.png" alt="" />
+                <img id="ST_SLIDE_BTN_PREV" src="images/ST_SLIDE_BTN_PREV.png" alt="" />
+                <img id="ST_BTN_REF" src="images/ST_BTN_REF.png" alt="" data-link-veeva="Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16" />
+                <img id="ST_BTN_HOME" src="images/ST_BTN_HOME.png" alt="" data-link-veeva="Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01" />
+                <img id="ST_BTN_MENU" src="images/ST_BTN_MENU.png" alt="" />
+            </div>
+            <div id="popups">
+                <img id="POP_RESUMO_BG" src="images/POP_RESUMO_BG.png" alt="" />
+                <img id="POP_RESUMO_BTN_CLS" src="images/POP_RESUMO_BTN_CLS.png" alt="" />
+                <img id="POP_RESUMO_TT" src="images/POP_RESUMO_TT.png" alt="" />
+                <img id="POP_RESUMO_CNTT" src="images/POP_RESUMO_CNTT.png" alt="" />
+            </div>
+            <div id="scroll">
+            </div>
+            <div id="drag">
+            </div>
+            <div id="menu"></div>
+            <div id="shared-popups"></div>
+            <div id="overlay">
+            </div>
+        </main>
+    </body>
+</html>

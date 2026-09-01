@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-11</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../shared/menu/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="../shared/popups/popups.css" rel="stylesheet" type="text/css"/>
+        <link href="../shared/css/style.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" charset="utf-8" src="../shared/js/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/jquery-migrate-3.5.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/gsap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/veeva-library.js"></script>
+        <script>
+        $(document).ready(function() {
+            initMenu();
+            initPopups();
+
+            var tl = gsap.timeline();
+            tl.to("#animate, #popups, #menu, #scroll, #drag, #shared-popups", { duration: 0.3, opacity: 1 }, 0.3)
+            .from("#AN_TT", { duration: 0.3, opacity: 0, left: "-=30" }, "-=.2")
+            .from("#AN_CHART_01", { duration: 0.3, opacity: 0, scale: 0.8 }, "-=.2")
+            .from("#AN_TXT_CHART_01", { duration: 0.3, opacity: 0, left: "-=30" }, "-=.2")
+            .from("#AN_TT_CHART_02", { duration: 0.3, opacity: 0, top: "-=30" }, "-=.2")
+            .from("#AN_CHART_02", { duration: 0.3, opacity: 0, top: "-=30" }, "-=.2")
+            .from("#AN_BTN_POP_MAPA", { duration: 0.3, opacity: 0, scale: 0.8 }, "-=.2")
+            .from("#AN_LEG", { duration: 0.3, opacity: 0, left: "-=30" }, "-=.2");
+
+            window.vaPopups = window.vaPopups || {};
+
+            var tl_POP_MAPA = gsap.timeline({ paused: true });
+                tl_POP_MAPA
+                    .from("#POP_MAPA_BG", { duration: 0.3, display: "none", opacity: 0 })
+                    .from("#POP_MAPA_BTN_CLS", { duration: 0.3, display: "none", opacity: 0, scale: 0.8 }, "-=.2")
+                    .from("#POP_MAPA_TT", { duration: 0.3, display: "none", opacity: 0, top: "-=30" }, "-=.2")
+                    .from("#POP_MAPA_SUB", { duration: 0.3, display: "none", opacity: 0, top: "-=30" }, "-=.2")
+                    .from("#POP_MAPA_CNTT", { duration: 0.3, display: "none", opacity: 0, scale: 0.8 }, "-=.2")
+                    .from("#POP_MAPA_LEG", { duration: 0.3, display: "none", opacity: 0 }, "-=.2");
+            window.vaPopups["POP_MAPA"] = tl_POP_MAPA;
+
+            $("#AN_BTN_POP_MAPA, #ST_BTN_POP_MAPA, #BTN_POP_MAPA, #AN_BTN_MAPA, #ST_BTN_MAPA, #BTN_MAPA").not("[aria-disabled='true']").on("touchstart click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                tl_POP_MAPA.timeScale(1).play();
+            });
+            $("#POP_MAPA_BTN_CLS, #POP_MAPA_CLS, #POP_MAPA_ICON_CLS, #POP_MAPA_BG").on("touchstart click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                tl_POP_MAPA.timeScale(2).reverse();
+            });
+        
+        });
+        </script>
+        <script type="text/javascript" charset="utf-8" src="../shared/menu/menu.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/popups/popups.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../shared/js/main.js"></script>
+    </head>
+    <body>
+        <main id="main">
+            <div id="background">
+                <img id="BG" src="images/BG.png" alt="" />
+            </div>
+            <div id="animate">
+                <img id="AN_TT" src="images/AN_TT.png" alt="" />
+                <img id="AN_CHART_01" src="images/AN_CHART_01.png" alt="" />
+                <img id="AN_TXT_CHART_01" src="images/AN_TXT_CHART_01.png" alt="" />
+                <img id="AN_TT_CHART_02" src="images/AN_TT_CHART_02.png" alt="" />
+                <img id="AN_CHART_02" src="images/AN_CHART_02.png" alt="" />
+                <img id="AN_BTN_POP_MAPA" src="images/AN_BTN_POP_MAPA.png" alt="" />
+                <img id="AN_LEG" src="images/AN_LEG.png" alt="" />
+            </div>
+            <div id="static">
+                <img id="ST_SLIDE_BTN_NEXT" src="images/ST_SLIDE_BTN_NEXT.png" alt="" />
+                <img id="ST_SLIDE_BTN_PREV" src="images/ST_SLIDE_BTN_PREV.png" alt="" />
+                <img id="ST_BTN_REF" src="images/ST_BTN_REF.png" alt="" data-link-veeva="Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-16" />
+                <img id="ST_BTN_HOME" src="images/ST_BTN_HOME.png" alt="" data-link-veeva="Gardasil_BR_pt_ParaElaTambem_Priscila_V5_Slide-01" />
+                <img id="ST_BTN_MENU" src="images/ST_BTN_MENU.png" alt="" />
+            </div>
+            <div id="popups">
+                <img id="POP_MAPA_BG" src="images/POP_MAPA_BG.png" alt="" />
+                <img id="POP_MAPA_BTN_CLS" src="images/POP_MAPA_BTN_CLS.png" alt="" />
+                <img id="POP_MAPA_TT" src="images/POP_MAPA_TT.png" alt="" />
+                <img id="POP_MAPA_SUB" src="images/POP_MAPA_SUB.png" alt="" />
+                <img id="POP_MAPA_CNTT" src="images/POP_MAPA_CNTT.png" alt="" />
+                <img id="POP_MAPA_LEG" src="images/POP_MAPA_LEG.png" alt="" />
+            </div>
+            <div id="scroll">
+            </div>
+            <div id="drag">
+            </div>
+            <div id="menu"></div>
+            <div id="shared-popups"></div>
+            <div id="overlay">
+            </div>
+        </main>
+    </body>
+</html>

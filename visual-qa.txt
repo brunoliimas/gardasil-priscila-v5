@@ -1,0 +1,9 @@
+VA Export — QA visual estrutural
+Frames: 16
+Avisos de proporção: 0
+Imagens pesadas: 5
+
+Nenhuma diferença de proporção detectada.
+
+Nota: comparação pixel a pixel HTML vs Figma exige render externo;
+este relatório cobre proporção do frame e peso de assets.
